@@ -18,9 +18,9 @@ h1{
     color: rgb(161, 0, 35);
     color: rgba(133, 6, 6, 0.941);
     font-size: 70px;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     text-shadow: 5px 4px 5px #000;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: fantasy;
 }
 h3{
@@ -52,10 +52,9 @@ footer{
     display: flex;
 }
 section{
-     
      width: 30%;
      height: 11em;
-     color: white;
+     color: rgb(191, 191, 191);
 }
 footer section{
     margin-left: 15px;
@@ -89,4 +88,20 @@ a{
     color: black;
     border-radius: 5px;
     border: 3px solid black;
+    text-indent: 2px;
+}
+main div p{
+    color: rgb(212, 30, 30);
+}
+footer section:first-child h4{
+    color: rgb(117, 12, 12);
+}
+footer section:first-child{
+    color: rgb(117, 12, 12);
+}
+footer section:last-of-type h4{
+    color: gray;
+}
+footer section:last-of-type{
+    color: gray;
 }
